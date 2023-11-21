@@ -1,0 +1,279 @@
+/* src/App.css */
+
+p.year {
+  text-align: right;
+}
+.section-divider {
+  border: 1px solid #333; /* Darker color */
+  margin: 0; /* Remove margin */
+  padding: 0; /* Remove padding */
+  line-height: 1; /* Ensure no extra line spacing */
+}
+p {
+  /* margin: 0; Remove any default margins */
+  margin-top: 0%;
+  margin-bottom: 0%;
+}
+/* h2,
+h3,
+h4 {
+  margin-top: 0px;
+  margin-bottom: 6px;
+} */
+.hr-line {
+  /* margin: 0px 0; Adjust the top and bottom margin as needed */
+  /* margin-top: 15px; */
+  height: 0;
+  width: 99%;
+  margin: 0 auto;
+  line-height: 2px;
+  /* background-color: #848484"; */
+  border: 0 none;
+  border-top: 1px solid #000;
+  /* Add a 1px solid horizontal line */
+}
+
+/* margin: 0; Remove margin from top and bottom */
+
+.centered-text {
+  text-align: center;
+  margin-bottom: 0%;
+}
+.Exp_heading {
+  margin-bottom: 0%;
+  /* text-decoration: underline; */
+}
+.sub-heading {
+  text-decoration: underline;
+}
+.centered-text p {
+  display: inline-block;
+  margin: 0 10px;
+  font-size: 14px;
+  line-height: 1em;
+  text-decoration: underline;
+}
+.right {
+  float: right;
+}
+
+.left {
+  float: left;
+}
+.left-text {
+  text-align: left;
+  margin-bottom: 0%;
+}
+.left-text p {
+  display: inline-block;
+  margin: 0 10px;
+  font-size: 14px;
+  line-height: 1em;
+  /* text-decoration: underline; */
+}
+
+.clear-button {
+  border: none;
+  background: rgba(0, 0, 0, 0); /* Set the background to be transparent */
+  padding: 0;
+  cursor: pointer;
+  margin-left: 10px;
+}
+
+.clear-button img {
+  width: 25px; /* Adjust the width of the image */
+  height: 25px; /* Adjust the height of the image */
+  /* Adjust the margin as needed */
+  vertical-align: right;
+}
+.add-button {
+  border: none;
+  background: rgba(0, 0, 0, 0); /* Set the background to be transparent */
+  padding: 0;
+  cursor: pointer;
+  margin-left: 10px;
+}
+
+.add-button img {
+  width: 25px; /* Adjust the width of the image */
+  height: 25px; /* Adjust the height of the image */
+  /* Adjust the margin as needed */
+  vertical-align: middle;
+}
+.vertical-separator {
+  background-color: #000; /* Add a background color */
+  width: 2px; /* Adjust the width as needed */
+  height: 100%;
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 49.5%; /* Position in the middle of the container */
+  transform: translateX(-50%); /* Center it horizontally */
+}
+
+/* .resume-container {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  height: 100vh;
+  margin: 0;
+  padding: 0;
+}
+
+.form-container {
+  flex: 1;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  min-width: 300px;
+  background-color: #f3f3f3;
+  border-radius: 5px;
+  padding-left: 10px;
+}
+
+.preview {
+  flex: 1;
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 5px;
+  margin-left: 20px;
+  padding-left: 20px;
+} */
+
+.resume-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.preview-container {
+  width: 70%;
+  margin: 20px;
+  padding: 30px;
+  border: 1px solid #ccc;
+}
+.form-container,
+.preview {
+  width: 70%;
+  margin: 20px;
+  padding: 20px;
+  border: 1px solid #ccc;
+}
+.form-container {
+  margin-bottom: 20px;
+}
+.clear-button1 {
+  background-color: transparent;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 3px;
+  cursor: pointer;
+  font-size: 16px;
+  margin-top: 10px; /* Add some space above the Save button */
+
+  /* margin-left: 10px; */
+}
+.clear-button1 img {
+  width: 32px; /* Adjust the width of the image */
+  height: 32px; /* Adjust the height of the image */
+  /* Adjust the margin as needed */
+  vertical-align: middle;
+}
+.clear-button {
+  background-color: transparent;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 3px;
+  cursor: pointer;
+  font-size: 16px;
+  margin-top: 10px;
+  padding-left: 880px;
+
+  /* margin-left: 10px; */
+}
+.clear-button img {
+  width: 50px; /* Adjust the width of the image */
+  height: 50px; /* Adjust the height of the image */
+  /* Adjust the margin as needed */
+  vertical-align: middle;
+}
+
+.save-button {
+  background-color: transparent;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 3px;
+  cursor: pointer;
+  font-size: 16px;
+  margin-top: 10px; /* Add some space above the Save button */
+}
+.save-button img {
+  width: 50px; /* Adjust the width of the image */
+  height: 50px; /* Adjust the height of the image */
+  /* Adjust the margin as needed */
+  vertical-align: middle;
+}
+
+label {
+  font-weight: bold;
+  margin-top: 10px;
+}
+
+input[type="text"],
+textarea {
+  width: 100%;
+  padding: 10px;
+  margin-top: 5px;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+  font-size: 14px;
+}
+
+/* button[type="button"] {
+  background-color: #007bff;
+  color: #fff;
+  padding: 5px 10px;
+  border: none;
+  border-radius: 3px;
+  cursor: pointer;
+  font-size: 14px;
+  margin-top: 10px;
+}
+
+button[type="button"]:hover {
+  background-color: transparent; */
+
+ul {
+  list-style: disc;
+  margin-left: 20px;
+}
+
+h2,
+h3,
+h4 {
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+
+/* Add specific styling for the subfields */
+input[type="text"][placeholder="Title"],
+input[type="text"][placeholder="Designation"],
+input[type="text"][placeholder="Duration"],
+input[type="text"][placeholder="Institute"],
+input[type="text"][placeholder="Course"],
+input[type="text"][placeholder="CGPA/Percentage"],
+input[type="text"][placeholder="Year of Passing"],
+input[type="text"][placeholder="Programming Tools"],
+input[type="text"][placeholder="Developer Tools"],
+input[type="text"][placeholder="Databases"],
+input[type="text"][placeholder="Frameworks"],
+input[type="text"][placeholder="Title"] {
+  width: 100%;
+  padding: 10px;
+  margin-top: 5px;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+  font-size: 14px;
+}
